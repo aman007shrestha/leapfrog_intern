@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" href="../../assets/image/lf.png" type="image/icon type" />
+    <title>CSS</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <div class="container">
+          <div class="left-nav clearfix">
+            <div class="nav-header"><a href="./index.html">UI Kit</a></div>
+            <ul class="links">
+              <li><a href="./index.html">Color</a></li>
+              <li><a href="./typography.html">Typography</a></li>
+              <li><a href="./buttons.html">Buttons</a></li>
+              <li><a href="./forms.html">Forms</a></li>
+              <li><a href="./list.html">List Group</a></li>
+              <li><a href="./table.html">Table</a></li>
+              <li><a href="./card.html">Card</a></li>
+            </ul>
+          </div>
+
+          <div class="right-nav clearfix">
+            <input type="text" placeholder="Search" class="search-field" />
+            <button class="btn search-btn">Search</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container hero-content">
+      <h1 class="title">Forms</h1>
+      <div class="divider"></div>
+      <div class="float-group">
+        <div class="form-fl">
+          <h3 class="mb-2">Components</h3>
+          <ul>
+            <li>Color</li>
+            <li>Typography</li>
+            <li>Buttons</li>
+            <li>Forms</li>
+            <li>List Group</li>
+            <li>Table</li>
+            <li>Card</li>
+          </ul>
+        </div>
+        <div class="form-fr">
+          <div>
+            <h3><label for="input123">Input</label></h3>
+            <input type="text" id="input123" placeholder="Placeholder" />
+          </div>
+          <div>
+            <h3><label for="selection">Select Menu</label></h3>
+            <select name="selection" id="selection">
+              <option value="">Select Menu</option>
+              <option value="male">male</option>
+              <option value="femaile">female</option>
+            </select>
+          </div>
+          <div>
+            <h3>Textarea</h3>
+            <textarea
+              name="textarea"
+              id="textarea123"
+              cols="30"
+              rows="10"
+              placeholder="Write your message here"
+            ></textarea>
+          </div>
+          <div class="checkbox-tab">
+            <h3 class="my-3">Checkboxes</h3>
+            <div class="float-group">
+              <div class="check-fl">
+                Checkboxes
+                <br />
+                <input type="checkbox" name="" id="" /> Default Checkbox <br />
+                <input type="checkbox" name="" id="" checked /> Default Checkbox
+                <br />
+                <div class="def156dis">
+                  <input type="checkbox" name="" disabled /> Default(disabled)
+                </div>
+              </div>
+              <div class="check-fr">
+                Checkboxes inline <br />
+                <div></div>
+                <div class="float1image">
+                  <input type="checkbox" name="" id="" /> Default Checkbox
+                  <br />
+                </div>
+                <div class="float1image mr-2">
+                  <input type="checkbox" name="" id="" checked /> Default
+                  Checkbox
+                  <br />
+                </div>
+                <div class="float1image def156dis mr-2">
+                  <input type="checkbox" name="" id="" disabled /> Disabled
+                  Checkbox
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="checkbox-tab">
+            <h3 class="my-3">Radios</h3>
+            <div class="float-group">
+              <div class="check-fl">
+                Radios
+                <br />
+                <input type="radio" name="" id="" /> Default Radio <br />
+                <input type="radio" name="" id="" checked /> Default Radio
+                <br />
+                <div class="def156dis">
+                  <input type="radio" name="" disabled /> Default(disabled)
+                </div>
+              </div>
+              <div class="check-fr">
+                Radios inline <br />
+                <div></div>
+                <div class="float1image">
+                  <input type="radio" name="" id="" /> Default Radio
+                  <br />
+                </div>
+                <div class="float1image mr-2">
+                  <input type="radio" name="" id="" checked /> Default Radio
+                  <br />
+                </div>
+                <div class="float1image def156dis mr-2">
+                  <input type="radio" name="" id="" disabled /> Disabled Radio
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Validation field -->
+          <div class="checkbox-tab">
+            <h3 class="my-3">Validation</h3>
+            <div class="inp156">
+              <label for="input156" class="input156">Input Success</label>
+              <input type="text" id="input156" class="field156 field-success" />
+            </div>
+          </div>
+          <div class="inp156">
+              <label for="input157" class="input156">Input Error</label>
+              <input type="text" id="input157" class="field156 field-danger "/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
